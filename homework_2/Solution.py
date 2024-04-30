@@ -27,7 +27,7 @@ class Solution:
         print(ans)
 
     @staticmethod
-    def task_3():
+    def task_3() -> NoReturn:
         dct = {1: 11, 2: 22, 3: 33, 4: 4, 5: 33, 6: 1}
         keys = set()
         values = set()
@@ -39,7 +39,7 @@ class Solution:
         print("Обьединенное множество: ", ans)
 
     @staticmethod
-    def task_4_1():
+    def task_4_1() -> NoReturn:
         dictionary = {
             "Имя": ["Андрей", "Кирилл", "Анна", "Евгений", "Евгений", "Александр", "Татьяна", "Аркадий", "Игорь",
                     "Кирилл"],
@@ -91,7 +91,7 @@ class Solution:
                 print(f"{key}: {value}")
 
     @staticmethod
-    def task_4_2():
+    def task_4_2() -> NoReturn:
         set1 = {6, 31, 14, 25, 19, 3, 55}
         set2 = {30, 22, 6, 79, 25}
         set3 = {9, 1, 22, 19, 30}
