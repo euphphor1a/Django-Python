@@ -95,4 +95,3 @@ while True:
         screen.blit(text, [text_x, text_y])
 
     pygame.display.update()
-
